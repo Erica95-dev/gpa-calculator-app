@@ -2,7 +2,7 @@
  * Title: auth.component.spec
  * Author: Erica Perry
  * Date: Feb  9 2021
- * Description: sign-in.compontent */
+ * Description: sign-in.service.spec.ts */
 
 import { TestBed } from '@angular/core/testing';
 
