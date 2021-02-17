@@ -11,6 +11,7 @@
       <mat-card-title>Grade Entry</mat-card-title>
 
       <mat-card-content>
+        <!-- click button for resetting-->
         <form fxLayout="column" fxLayoutGap="16px" [formGroup]="transcriptForm" (ngSubmit)="onSubmit($event); transcriptForm.reset()">
           <mat-form-field fxFlex appearance="fill">
             <mat-label>Course</mat-label>
@@ -18,6 +19,7 @@
           </mat-form-field>
 
           <mat-form-field fxFlex appearance="fill">
+            <!--grades-->
             <mat-label>Grade</mat-label>
             <mat-select formControlName="grade" required name="selectGrade">
               <mat-option *ngFor="let grade of selectableGrades" [value]="grade">
@@ -47,6 +49,7 @@
 
 <div fxLayout="column" fxLayoutGap="20px">
   <div fxFlex class="gpa">
+    <!-- click button for calculate results-->
     <button mat-button color="primary" (click)="calculateResults()">Calculate GPA</button>
 
     <mat-card class="mat-elevation-z8">
