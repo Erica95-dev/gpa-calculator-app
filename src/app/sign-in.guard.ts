@@ -1,3 +1,9 @@
+/*
+ * Title: auth.component.spec
+ * Author: Erica Perry
+ * Date: Feb  9 2021
+ * Description: auth.compontent */
+
 import { Injectable } from '@angular/core';
 import { CanActivate, ActivatedRouteSnapshot, RouterStateSnapshot, UrlTree } from '@angular/router';
 import { CookieService } from 'ngx-cookie-service';
