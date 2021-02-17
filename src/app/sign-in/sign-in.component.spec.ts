@@ -1,3 +1,9 @@
+/*
+ * Title: sign-in.component.spec
+ * Author: Erica Perry
+ * Date: Feb  9 2021
+ * Description: auth.compontent */
+
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { SignInComponent } from './sign-in.component';
